@@ -19,7 +19,7 @@
 
     <!--     Fonts and icons     -->
     <link href="{{ asset('css/fonts.css') }}" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
 
     @stack('styles')
 </head>
