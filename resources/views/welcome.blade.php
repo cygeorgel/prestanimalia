@@ -3,6 +3,7 @@
 @section('content')
     <div class="landing-page">
         @include('layouts.pieces.topbar-home')
+
         <div class="wrapper">
             <div class="header header-filter" style="background-image: url('{{ asset('img/toilettage-process.jpg') }}');">
 
@@ -27,6 +28,9 @@
                     <div class="section text-center section-landing">
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2">
+
+                                @include('flash::message')
+
                                 <h2 class="title">Un potentiel énorme, aujourd'hui inexploité</h2>
                                 <h5 class="description">
                                     10 millions de chiens et de chats n'entrent pas dans les salons de toilettage : <strong>nous construisons l'offre qui permet de capter cette clientèle potentielle</strong>. Grâce aux nouvelles techniques, Toilettage Nature permet de toiletter tous les types.

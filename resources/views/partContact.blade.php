@@ -9,8 +9,9 @@
                 Il vous est également possible de créer votre compte Toilettage Process.
             </h4>
 
-            <form id="contact" action="/contact/" method="post" class="contact-form">
+            <form id="contact" action="/webcontact" method="post" class="contact-form">
 
+                {{ csrf_field() }}
 
 
                 <div class="row">
@@ -39,7 +40,7 @@
                     <div class="col-md-6">
                         <div class="form-group label-floating is-empty">
                             <label class="control-label">Votre adresse EMail</label>
-                            <input type="email" class="form-control" required>
+                            <input name="emailAddress" type="email" class="form-control" required>
                             <span class="material-input"></span></div>
                     </div>
                 </div>
@@ -73,7 +74,9 @@
                         </button>
                     </div>
                 </div>
+
             </form>
+
         </div>
     </div>
 </div>

@@ -27,3 +27,16 @@
         </div>
     </div>
 </footer>
+
+
+<script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ asset('js/jquery-ui.js') }}"></script>
+
+
+<script>
+    $('#flash-overlay-modal').modal();
+</script>
+
+<script>
+$('div.alert').not('.alert-important').delay(3000).fadeOut(350);
+</script>

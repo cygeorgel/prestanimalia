@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 })->name('index');
 
+Route::post('/webcontact', 'WebsiteContactController@store');
+
+
 Auth::routes();
 Route::get('auth/{provider}', 'Auth\ProvidersController@redirectToProvider')->name('provider');
 Route::get('auth/{provider}/callback', 'Auth\ProvidersController@handleProviderCallback');

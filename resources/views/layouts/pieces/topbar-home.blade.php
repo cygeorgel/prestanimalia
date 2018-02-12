@@ -17,13 +17,13 @@
                 <li>
                     <a href="{{ route('register') }}">
                         <i class="material-icons">person_add</i>
-                        Register
+                        S'inscrire
                     </a>
                 </li>
                 <li>
                     <a href="{{ route('login') }}">
                         <i class="material-icons">person_outline</i>
-                        Login
+                        Se connecter
                     </a>
                 </li>
                 @else
