@@ -24,3 +24,5 @@ Route::get('auth/{provider}/callback', 'Auth\ProvidersController@handleProviderC
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/dashboard', 'HomeController@dashboard')->name('dashboard');
+
+Route::get('/trainings/{training}', 'TrainingController@show');

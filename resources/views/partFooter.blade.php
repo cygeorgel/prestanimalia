@@ -23,7 +23,10 @@
             </ul>
         </nav>
         <div class="copyright pull-right">
-            © 2018, made with <i class="fa fa-heart heart"></i> by BlueRock
+            © 2018, made with <i class="fa fa-heart heart"></i> by
+            <a href="http://bluerock.ie" target="_blank">
+                BlueRock
+            </a>
         </div>
     </div>
 </footer>
