@@ -17,7 +17,7 @@ class TrainingsTableSeeder extends Seeder
         		[
                     'slug' => 'grooming-station',
         			'title' => 'Gagnez en rentabilité grâce à la Grooming Station',
-                    'shortDescription' => '',
+                    'shortDescription' => 'Utilisez le bon matériel et les bonnes techniques, boostez votre productivité... et votre rentabilité.',
                     'longDescription' => '
                     <p>
                     Une journée de formation pour maîtriser de façon optimale la Grooming Station.
@@ -48,7 +48,7 @@ class TrainingsTableSeeder extends Seeder
                 [
                     'slug' => 'check-in-dog',
                     'title' => 'Maîtrisez la gestion et le marketing avec Check-in DOG',
-                    'shortDescription' => 'À la fin de cette journée de formation, vous maîtriserez Check-in DOG, ses fonctions de gestion et de marketing. Développez votre activité. Optimisez votre rentabilité.',
+                    'shortDescription' => 'Utilisez les bons outils informatiques, maîtrisez votre gestion et développez votre marketing.',
                     'longDescription' => '
                     <p>
                     Une journée de formation pour maîtriser Check-in DOG de façon optimale.
@@ -71,11 +71,10 @@ class TrainingsTableSeeder extends Seeder
                     'updated_at' => NOW(),
                 ],
 
-
                 [
                     'slug' => 'libre-service',
-                    'title' => 'Toilettage nature, Toilettage Libre Service',
-                    'shortDescription' => 'Une journée de formation pour maîtriser le niveau Libre Service de Toilettage Nature : permettre aux posesseurs de chiens et de chats d\'utiliser un ensemble de matériels et de produits de toilettage',
+                    'title' => 'Libre Service',
+                    'shortDescription' => 'Commencez votre activité toilettage avec un investissement minimal, sans prendre aucun risque.',
                     'longDescription' => '
                     <p>
                     Une journée de formation pour maîtriser le niveau Libre Service de Toilettage Nature</strong>.
@@ -103,38 +102,76 @@ class TrainingsTableSeeder extends Seeder
 
                 [
                     'slug' => 'natural-pro',
-                    'title' => 'Toilettage nature, Toilettage Natural Pro',
-                    'shortDescription' => '',
+                    'title' => 'Natural Pro',
+                    'shortDescription' => 'Toilettez 90% des types de chiens et de chats avec facilité tout préservant leur aspect naturel.',
                     'longDescription' => '
                     <p>
                     90% des types de chiens et chats toilettés en gardant leur aspect naturel.
                     </p>
-
+                    <ul>
+                    <li>Connaissance de l\'animal</li>
+                    <li>Les nouvelles technologies du toilettage</li>
+                    <li>Les différentes attitudes à adopter</li>
+                    <li>Le démêlage</li>
+                    <li>Le bain</li>
+                    <li>Le séchage</li>
+                    <li>La touche finale</li>
+                    <li>L\'hygiène en salon de toilettage</li>
+                    <li>Choisir les instruments les mieux adaptés</li>
+                    <ul>
                     ',
                     'curriculum' => '#',
                     'sellingPriceWithoutTax' => '960',
-                    'durationInHours' => 14,
-                    'durationInDays' => 2,
+                    'durationInHours' => 70,
+                    'durationInDays' => 10,
                     'image' => null,
                     'created_at' => NOW(),
                     'updated_at' => NOW(),
                 ],
 
-
                 [
                     'slug' => 'esthetic-pro',
-                    'title' => 'Toilettage nature, Toilettage Esthetic Pro',
-                    'shortDescription' => '',
+                    'title' => 'Esthetic Pro',
+                    'shortDescription' => 'Continuez à développer votre activité en offrant désormais un service de toilettage à la carte.',
                     'longDescription' => '
                     <p>
-                    90% des types de chiens et chats toilettés en gardant leur aspect naturel.
+                    4 semaines de formation en tout, avec la possibilité de moduler entre 1 et 4 semaines en fonction de ce que vous avez besoin de parfaire.
                     </p>
-
+                    <p>
+                    4 catégories de poil vous sont proposés afin de parvenir à une maîtrise parfaite des techniques.
+                    </p>
+                    <ul>
+                    <li>Les fourrures épaisses</li>
+                    <li>Les poils longs</li>
+                    <li>Les poils courts avec sous poil, les poils ras</li>
+                    <li>Les poils durs avec ou sans épilation</li>
+                    </ul>
                     ',
                     'curriculum' => '#',
                     'sellingPriceWithoutTax' => '960',
-                    'durationInHours' => 14,
-                    'durationInDays' => 2,
+                    'durationInHours' => 140,
+                    'durationInDays' => 20,
+                    'image' => null,
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
+                [
+                    'slug' => 'elite-pro',
+                    'title' => 'Elite Pro',
+                    'shortDescription' => 'Intégrez maintenant le toilettage d\'exposition et de concours à votre offre, travaillez votre notoriété.',
+                    'longDescription' => '
+                    <p>
+                    Il s\'agit désormais de développer votre notoriété en proposant du toilettage d\'exposition ou en participant à des concours de toilettage.
+                    </p>
+                    <p>
+                    Participer à notre formation assurée par des toiletteurs experts.
+                    </p>
+                    ',
+                    'curriculum' => '#',
+                    'sellingPriceWithoutTax' => '1280',
+                    'durationInHours' => 70,
+                    'durationInDays' => 10,
                     'image' => null,
                     'created_at' => NOW(),
                     'updated_at' => NOW(),

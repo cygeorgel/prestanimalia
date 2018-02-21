@@ -14,18 +14,22 @@
         <div class="collapse navbar-collapse" id="navigation-example">
             <ul class="nav navbar-nav navbar-right">
                 @guest
-                <li>
-                    <a href="{{ route('register') }}">
-                        <i class="material-icons">person_add</i>
-                        S'inscrire
-                    </a>
-                </li>
-                <li>
-                    <a href="{{ route('login') }}">
-                        <i class="material-icons">person_outline</i>
-                        Se connecter
-                    </a>
-                </li>
+<?php
+                // I desactivate this for now
+                // we are not ready for registration and dashboard
+//                <li>
+//                    <a href="{{ route('register') }}">
+//                        <i class="material-icons">person_add</i>
+//                        S'inscrire
+//                    </a>
+//                </li>
+//                <li>
+//                    <a href="{{ route('login') }}">
+//                        <i class="material-icons">person_outline</i>
+//                        Se connecter
+//                    </a>
+//                </li>
+?>
                 @else
                 <li>
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -53,20 +57,22 @@
                 </li>
                 @endguest
                 <li>
-                    <a href="https://twitter.com/#" target="_blank" class="btn btn-simple btn-white btn-just-icon">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                </li>
-                <li>
                     <a href="https://www.facebook.com/tpformateur/" target="_blank" class="btn btn-simple btn-white btn-just-icon">
                         <i class="fa fa-facebook-square"></i>
                     </a>
                 </li>
-                <li>
-                    <a href="https://www.instagram.com/#" target="_blank" class="btn btn-simple btn-white btn-just-icon">
-                        <i class="fa fa-instagram"></i>
-                    </a>
-                </li>
+<?php
+//                <li>
+//                    <a href="https://www.instagram.com/#" target="_blank" class="btn btn-simple btn-white btn-just-icon">
+//                        <i class="fa fa-instagram"></i>
+//                    </a>
+//                </li>
+//                <li>
+//                    <a href="https://twitter.com/#" target="_blank" class="btn btn-simple btn-white btn-just-icon">
+//                        <i class="fa fa-twitter"></i>
+//                    </a>
+//                </li>
+?>
             </ul>
         </div>
     </div>

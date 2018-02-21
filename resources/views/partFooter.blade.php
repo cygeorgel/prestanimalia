@@ -3,9 +3,15 @@
         <nav class="pull-left">
             <ul>
                 <li>
-                    <a href="http://toilettagenature.com?utm_source=toilettageprocess.com"
+                    <a href="http://agc-creation.eu/shop/fr/?utm_source=toilettageprocess.com"
                     target="_blank">
-                        Toilettage Nature
+                        AGC Création
+                    </a>
+                </li>
+                <li>
+                    <a href="https://audreco.com?utm_source=toilettageprocess.com"
+                    target="_blank">
+                        Audreco
                     </a>
                 </li>
                 <li>
@@ -14,6 +20,13 @@
                         Check-in DOG
                     </a>
                 </li>
+                <li>
+                    <a href="http://toilettagenature.com?utm_source=toilettageprocess.com"
+                    target="_blank">
+                        Toilettage Nature
+                    </a>
+                </li>
+
                 <li>
                     <a href="https://forum-toilettage.org?utm_source=toilettageprocess.com"
                     target="_blank">
@@ -24,7 +37,7 @@
         </nav>
         <div class="copyright pull-right">
             © 2018, made with <i class="fa fa-heart heart"></i> by
-            <a href="http://bluerock.ie" target="_blank">
+            <a href="http://bluerock.ie/fr/?utm_source=toilettageprocess.com" target="_blank">
                 BlueRock
             </a>
         </div>

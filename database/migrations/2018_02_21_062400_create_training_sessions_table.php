@@ -16,6 +16,7 @@ class CreateTrainingSessionsTable extends Migration
         Schema::create('training_sessions', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('training_id');
+            $table->string('speciality')->nullable();
             $table->date('start');
             $table->date('end');
             $table->string('place')->nullable();

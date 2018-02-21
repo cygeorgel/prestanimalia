@@ -21,9 +21,9 @@
                 <div class="icon icon-success">
                     <i class="material-icons">pets</i>
                 </div>
-                <h4 class="info-title">Formation <i>Grooming Station</i></h4>
+                <h4 class="info-title">Grooming Station</i></h4>
                 <p>
-                    Utilisez le bon matériel et les bonnes techniques, et rentabilisez votre activité !
+                    Utilisez le bon matériel et les bonnes techniques, boostez votre productivité... et votre rentabilité.
                 </p>
                 <a href="/trainings/grooming-station" class="btn btn-success">Voir le détail</a>
             </div>
@@ -34,9 +34,9 @@
                 <div class="icon icon-primary">
                     <i class="material-icons">important_devices</i>
                 </div>
-                <h4 class="info-title">Formation <i>Check-in DOG</i></h4>
+                <h4 class="info-title">Check-in DOG</h4>
                 <p>
-                    Utilisez les bons outils de gestion et de marketing, et rentabilisez votre activité !
+                    Utilisez les bons outils informatiques, maîtrisez votre gestion et développez votre marketing.
                 </p>
                 <a href="/trainings/check-in-dog" class="btn btn-primary">Voir le détail</a>
             </div>
@@ -59,7 +59,7 @@
                 </div>
                 <h4 class="info-title"><small>Toilettage Nature</small><br />Libre Service</h4>
                 <p>
-                    Commencez à rentabiliser votre activité avec un investissement financier minimal, sans risque
+                    Commencez votre activité toilettage avec un investissement minimal, sans prendre aucun risque.
                 </p>
                 <a href="/trainings/libre-service" class="btn btn-primary">Voir le détail</a>
             </div>
@@ -71,7 +71,7 @@
                     <i class="material-icons">filter_2</i>
                 </div>
                 <h4 class="info-title"><small>Toilettage Nature</small><br />Natural Pro</h4>
-                <p>90% des types de chiens et de chats sont toilettés en gardant leur aspect naturel. "Votre compagnon propre, beau et nature. Zéro poils dans la maison"</p>
+                <p>Toilettez 90% des types de chiens et de chats avec facilité tout préservant leur aspect naturel.</p>
                 <a href="/trainings/natural-pro" class="btn btn-success">Voir le détail</a>
             </div>
         </div>
@@ -82,7 +82,7 @@
                     <i class="material-icons">filter_3</i>
                 </div>
                 <h4 class="info-title"><small>Toilettage Nature</small><br />Esthetic Pro</h4>
-                <p>Toiletteur Pro, vous souhaitez développer votre activité en apportant un service de toilettage à la carte.</p>
+                <p>Continuez à développer votre activité en offrant désormais un service de toilettage à la carte.</p>
                 <a href="/trainings/esthetic-pro" class="btn btn-warning">Voir le détail</a>
             </div>
         </div>
@@ -93,7 +93,7 @@
                     <i class="material-icons">filter_4</i>
                 </div>
                 <h4 class="info-title"><small>Toilettage Nature</small><br />Elite Pro</h4>
-                <p>Toilettage Esthetic Pro, vous souhaitez désormais vous orienter vers le toilettage d'exposition et/ou participer à des concours de toilettage.</p>
+                <p>Intégrez maintenant le toilettage d'exposition et de concours à votre offre, travaillez votre notoriété.</p>
                 <a href="/trainings/elite-pro" class="btn btn-danger">Voir le détail</a>
             </div>
         </div>
