@@ -43,6 +43,7 @@
 
                                 <h3 class="title" id="sessions">Prochaines sessions</h3>
 
+                                @if(count($training->sessions))
                                 <ul>
                                     @foreach($training->sessions as $session)
                                     <li>
@@ -54,6 +55,13 @@
                                     </li>
                                     @endforeach
                                 </ul>
+                                @else
+                                <h2>Oups, désolé...</h2>
+
+                                <h3>Suite à une forte demande, les sessions pour cette formation sont momentanément indisponibles. Dans l'attente, nous vous invitons à <a href="/#contact">compléter notre formulaire de contact</a>.</h3>
+
+                                <a href="/#contact" class="btn btn-primary">Formulaire de contact</a>
+                                @endif
 
                                 <hr>
 

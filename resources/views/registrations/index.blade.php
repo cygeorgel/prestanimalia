@@ -32,7 +32,7 @@
 
                                 <h3>Suite à une forte demande, les inscriptions en ligne sont momentanément indisponibles. Dans l'attente, nous vous invitons à <a href="/#contact">compléter notre formulaire de contact</a>.</h3>
 
-                                    <a href="/#contact" class="btn btn-primary">Formulaire de contact</a>
+                                <a href="/#contact" class="btn btn-primary">Formulaire de contact</a>
 
 
                             </div>
