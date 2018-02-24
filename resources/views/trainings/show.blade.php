@@ -37,8 +37,7 @@
                                 </h5>
                                 <p>
                                     Durée en jours : <strong>{{ $training->durationInDays }}</strong><br />
-                                    Durée en heures : <strong>{{ $training->durationInHours }}</strong><br />
-                                    Prix de la formation : <strong>{{ number_format($training->sellingPriceWithoutTax, 2) }} € HT</strong><br />
+                                    Prix de la formation complète : <strong>{{ number_format($training->sellingPriceWithoutTax, 2) }} € HT</strong><br />
                                 </p>
 
                                 <h3 class="title" id="sessions">Prochaines sessions</h3>
@@ -47,18 +46,29 @@
                                 <ul>
                                     @foreach($training->sessions as $session)
                                     <li>
-                                        @if(isset($session->end))
-                                        du {{ $session->start->format('d/m/Y') }} au {{ $session->end->format('d/m/Y') }} <a href="/registrations/{{ $session->id }}" class="btn btn-xs btn-primary">S'inscrire</a>
+                                        @if($session->numberOfDays > 1)
+                                            du {{ $session->start->format('d/m/Y') }} au {{ $session->end->format('d/m/Y') }}
+                                            @if($session->speciality != '')
+                                            - <strong>{{ $session->speciality }}</strong>
+                                            @endif
+                                            , Prix de la session : <strong>{{ number_format($session->priceWithoutTax, 2) }}€ HT</strong>
+                                             <a href="/registrations/{{ $session->id }}" class="btn btn-xs btn-primary">S'inscrire</a>
+
                                         @else
-                                        {{ $session->start->format('d/m/Y')}} <a href="/registrations/{{ $session->id }}" class="btn btn-xs btn-primary">S'inscrire</a>
+                                            le {{ $session->start->format('d/m/Y')}}
+                                            <a href="/registrations/{{ $session->id }}" class="btn btn-xs btn-primary">S'inscrire</a>
                                         @endif
                                     </li>
                                     @endforeach
                                 </ul>
                                 @else
-                                <h2>Oups, désolé...</h2>
-
-                                <h3>Suite à une forte demande, les sessions pour cette formation sont momentanément indisponibles. Dans l'attente, nous vous invitons à <a href="/#contact">compléter notre formulaire de contact</a>.</h3>
+                                <h4>
+                                    Les dates de session pour cette formation sont momentanément indisponibles.
+                                </h4>
+                                <h3>
+                                    Dans l'attente, nous vous invitons à <a href="/#contact">compléter notre formulaire de contact</a>,
+                                    et nous reviendrons vers vous dans les plus brefs délais.
+                                </h3>
 
                                 <a href="/#contact" class="btn btn-primary">Formulaire de contact</a>
                                 @endif

@@ -29,7 +29,7 @@
                                 @include('flash::message')
 
                                 <p>
-                                    Félicitations ! Vous avez procédé à votre préinscription
+                                    <strong>Félicitations !</strong> Vous avez procédé à votre préinscription
                                     avec succès. Afin de rendre votre inscription définitive,
                                     nous vous invitons à procéder au paiement ci-après.
                                 </p>
@@ -47,7 +47,9 @@
                                             data-description="Inscription {{ $registration->created_at->format('Ymd') }} {{ $registration->id }}"
                                             data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
                                             data-locale="auto"
-                                            data-currency="eur">
+                                            data-currency="eur"
+                                            data-email="{{ $registration->student->emailAddress }}"
+                                            data-label="Paiement Sécurisé par Carte Bancaire">
                                     </script>
                                 </form>
 

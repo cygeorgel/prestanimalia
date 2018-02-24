@@ -28,13 +28,13 @@
 
                                 @include('flash::message')
 
-                                Félicitations ! Votre paiement a été enregistré
+                                <strong>Félicitations !</strong> Votre paiement a été enregistré
                                 et votre inscription a été confirmée. Vous recevrez
                                 prochainement un email avec toutes les informations
                                 relatives à votre stage. <br />
-                                Nous vous remercions pour votre confiance, et
+                                <strong>Nous vous remercions pour votre confiance, et
                                 nous restons à votre disposition pour toute
-                                information complémentaire.
+                                information complémentaire.</strong>
 
                             </div>
                         </div>

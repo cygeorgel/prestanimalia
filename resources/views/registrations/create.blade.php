@@ -28,6 +28,21 @@
 
                                 @include('flash::message')
 
+                                <h4>
+                                    Inscription à la formation<br />
+                                    <strong>{{ $session->training->title }}</strong>
+                                </h4>
+
+                                <h5>
+                                    @if($session->numberOfDays > 1)
+                                    Session du {{ $session->start->format('d/m/Y') }} au {{ $session->end->format('d/m/Y') }}
+                                    @else
+                                    Session du {{ $session->start->format('d/m/Y') }}
+                                    @endif
+                                    <br />
+                                    {{ number_format($session->priceWithoutTax, 2) }} € HT
+                                </h5>
+
 
                                 <form action="/registrations" method="post" class="contact-form">
 

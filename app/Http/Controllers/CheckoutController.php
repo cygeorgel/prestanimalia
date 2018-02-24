@@ -63,8 +63,6 @@ class CheckoutController extends Controller
 
         return redirect('/registration/success');
 
-
-
     }
 
 }

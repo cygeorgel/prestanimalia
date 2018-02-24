@@ -148,7 +148,7 @@ class TrainingsTableSeeder extends Seeder
                     </ul>
                     ',
                     'curriculum' => '#',
-                    'sellingPriceWithoutTax' => '960',
+                    'sellingPriceWithoutTax' => '1485',
                     'durationInHours' => 140,
                     'durationInDays' => 20,
                     'image' => null,

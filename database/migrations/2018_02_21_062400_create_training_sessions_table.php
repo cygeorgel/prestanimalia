@@ -19,6 +19,8 @@ class CreateTrainingSessionsTable extends Migration
             $table->string('speciality')->nullable();
             $table->date('start');
             $table->date('end');
+            $table->integer('numberOfDays')->default(1);
+            $table->decimal('priceWithoutTax', 12, 4);
             $table->string('place')->nullable();
             $table->integer('availability')->default(15);
             $table->timestamps();

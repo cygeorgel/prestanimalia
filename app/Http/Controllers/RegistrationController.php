@@ -54,7 +54,7 @@ class RegistrationController extends Controller
 
         $session = TrainingSession::find(request('session_id'));
 
-        $price = $session->training->sellingPriceWithoutTax;
+        $price = $session->priceWithoutTax;
 
         $student = Student::create([
             'firstName' => request('firstName'),
