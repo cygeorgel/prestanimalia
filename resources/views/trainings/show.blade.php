@@ -48,9 +48,9 @@
                                     @foreach($training->sessions as $session)
                                     <li>
                                         @if(isset($session->end))
-                                        du {{ $session->start->format('d/m/Y') }} au {{ $session->end->format('d/m/Y') }} <a href="/registrations" class="btn btn-xs btn-primary">S'inscrire</a>
+                                        du {{ $session->start->format('d/m/Y') }} au {{ $session->end->format('d/m/Y') }} <a href="/registrations/{{ $session->id }}" class="btn btn-xs btn-primary">S'inscrire</a>
                                         @else
-                                        {{ $session->start->format('d/m/Y')}} <a href="/registrations" class="btn btn-xs btn-primary">S'inscrire</a>
+                                        {{ $session->start->format('d/m/Y')}} <a href="/registrations/{{ $session->id }}" class="btn btn-xs btn-primary">S'inscrire</a>
                                         @endif
                                     </li>
                                     @endforeach

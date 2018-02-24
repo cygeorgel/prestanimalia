@@ -28,12 +28,13 @@
 
                                 @include('flash::message')
 
-                                <h2>Oups, désolé...</h2>
-
-                                <h3>Suite à une forte demande, les inscriptions en ligne sont momentanément indisponibles. Dans l'attente, nous vous invitons à <a href="/#contact">compléter notre formulaire de contact</a>.</h3>
-
-                                <a href="/#contact" class="btn btn-primary">Formulaire de contact</a>
-
+                                Félicitations ! Votre paiement a été enregistré
+                                et votre inscription a été confirmée. Vous recevrez
+                                prochainement un email avec toutes les informations
+                                relatives à votre stage. <br />
+                                Nous vous remercions pour votre confiance, et
+                                nous restons à votre disposition pour toute
+                                information complémentaire.
 
                             </div>
                         </div>

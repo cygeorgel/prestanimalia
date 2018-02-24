@@ -15,6 +15,13 @@ Route::get('/', function () {
     return view('welcome');
 })->name('index');
 
+
+Route::get('/centre-formation', function () {
+    return view('centre-formation');
+});
+
+
+
 Route::post('/webcontact', 'WebsiteContactController@store');
 
 
@@ -27,4 +34,13 @@ Route::get('/dashboard', 'HomeController@dashboard')->name('dashboard');
 
 Route::get('/trainings/{training}', 'TrainingController@show');
 
-Route::get('/registrations', 'RegistrationController@index');
+
+
+
+
+Route::get('/registrations/{session}', 'RegistrationController@create');
+Route::post('/registrations', 'RegistrationController@store');
+Route::get('/registration/success', 'RegistrationController@success');
+
+Route::get('/charge/{registration}', 'CheckoutController@pay');
+Route::post('/charge', 'CheckoutController@charge');

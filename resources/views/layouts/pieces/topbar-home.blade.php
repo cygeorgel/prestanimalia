@@ -56,6 +56,14 @@
                     </ul>
                 </li>
                 @endguest
+
+                <li>
+                    <a href="/centre-formation" class="btn btn-simple btn-white ">
+                            Le centre de formation
+                    </a>
+                </li>
+
+
                 <li>
                     <a href="https://www.facebook.com/tpformateur/" target="_blank" class="btn btn-simple btn-white btn-just-icon">
                         <i class="fa fa-facebook-square"></i>

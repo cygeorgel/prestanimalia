@@ -12,6 +12,6 @@ class TrainingSession extends Model
 
     public function training()
     {
-        return $this->hasOne(Training::class);
+        return $this->belongsTo(Training::class);
     }
 }

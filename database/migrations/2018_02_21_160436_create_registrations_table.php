@@ -15,6 +15,10 @@ class CreateRegistrationsTable extends Migration
     {
         Schema::create('registrations', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('student_id');
+            $table->integer('session_id');
+            $table->decimal('priceWithoutTax', 12, 4);
+            $table->boolean('paid')->default(false);
             $table->timestamps();
         });
     }
