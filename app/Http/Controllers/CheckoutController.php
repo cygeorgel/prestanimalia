@@ -61,7 +61,7 @@ class CheckoutController extends Controller
 
         // send user to /registration/success:
 
-        return redirect('/registration/success');
+        return redirect('/registration/success#main');
 
     }
 

@@ -59,7 +59,11 @@ class TrainingsTableSeeder extends Seeder
                     <ul>
                     <li>Mise en oeuvre de la Check-in DOG</li>
                     <li>Gérer le fichier clients et animaux avec Check-in DOG</li>
-                    <li>Gérer les rendez-vous</li>
+                    <li>Les rendez-vous, les rappels par SMS, par email</li>
+                    <li>Gérer les ventes</li>
+                    <li>Journaux de ventes, de caisse</li>
+                    <li>Stocks, commandes, aides à la commande</li>
+                    <li>Les actions marketing</li>
                     </ul>
                     ',
                     'curriculum' => '#',

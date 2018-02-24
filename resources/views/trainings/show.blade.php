@@ -52,11 +52,11 @@
                                             - <strong>{{ $session->speciality }}</strong>
                                             @endif
                                             , Prix de la session : <strong>{{ number_format($session->priceWithoutTax, 2) }}€ HT</strong>
-                                             <a href="/registrations/{{ $session->id }}" class="btn btn-xs btn-primary">S'inscrire</a>
+                                             <a href="/registrations/{{ $session->id }}#main" class="btn btn-xs btn-primary">S'inscrire</a>
 
                                         @else
                                             le {{ $session->start->format('d/m/Y')}}
-                                            <a href="/registrations/{{ $session->id }}" class="btn btn-xs btn-primary">S'inscrire</a>
+                                            <a href="/registrations/{{ $session->id }}#main" class="btn btn-xs btn-primary">S'inscrire</a>
                                         @endif
                                     </li>
                                     @endforeach

@@ -74,7 +74,7 @@ class RegistrationController extends Controller
 
         // go to payment page with the regisration id:
 
-        return redirect('/charge/' . $registration->id);
+        return redirect('/charge/' . $registration->id . '#main');
 
     }
 

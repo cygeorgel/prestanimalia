@@ -20,7 +20,7 @@
                 </div>
             </div>
 
-            <div class="main main-raised">
+            <div id="main" class="main main-raised">
                 <div class="container">
                     <div class="section section-landing">
                         <div class="row">
