@@ -6,7 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>{{ config('app.name', 'Hello Nina') }}</title>
+    <title>{{ config('app.name', 'TOILETTAGE PROCESS') }}</title>
+    <meta name="author" content="BlueRock < https://bluerock.ie >" />
+    <meta property="og:url" content="https://toilettageprocess.com/" />
+    <meta property="og:title" content="Toilettage Process" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:description" content="Un souffle nouveau sur la profession toiletteur" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://toilettageprocess.com/storage/opengraph.jpg" />
+    <meta property="fb:app_id" content="1076801095670842" />
+
     <!-- Canonical SEO -->
     <link rel="canonical" href="https://toilettageprocess.com/">
 
