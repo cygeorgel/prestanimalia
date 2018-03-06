@@ -292,6 +292,39 @@ class TrainingSessionsTableSeeder extends Seeder
                     'updated_at' => NOW(),
                 ],
 
+                [
+                    'training_id' => '7',
+                    'speciality' => null,
+                    'start' => '2018-03-26',
+                    'end' => '2018-05-05',
+                    'numberOfDays' => 30,
+                    'priceWithoutTax' => '1956',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
+                [
+                    'training_id' => '7',
+                    'speciality' => null,
+                    'start' => '2018-05-14',
+                    'end' => '2018-06-22',
+                    'numberOfDays' => 30,
+                    'priceWithoutTax' => '1956',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
+                [
+                    'training_id' => '7',
+                    'speciality' => null,
+                    'start' => '2018-06-25',
+                    'end' => '2018-08-03',
+                    'numberOfDays' => 30,
+                    'priceWithoutTax' => '1956',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
 
 
         ]);

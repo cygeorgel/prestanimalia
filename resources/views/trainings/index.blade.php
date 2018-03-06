@@ -100,3 +100,28 @@
 
     </div>
 </div>
+
+
+
+
+
+
+<div class="row">
+
+ 	<div class="col-sm-6 col-sm-offset-3">
+
+        <div class="info">
+            <div class="icon icon-primary">
+                <i class="material-icons">filter_2</i> <strong>+</strong> <i class="material-icons">filter_3</i>
+            </div>
+            <h4 class="info-title"><small>Offre combinée</small><br />Natural + Esthetic Pro</h4>
+            <p>6 semaines de formation intensive, regroupant Natural Pro et Esthetic Pro : formation complète conduisant au label Esthetic Pro.<p>
+            <a href="/trainings/natural-esthetic-pro" class="btn btn-primary">Voir le détail</a>
+        </div>
+    </div>
+
+ 	</div>
+
+
+
+ </div>

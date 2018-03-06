@@ -41,7 +41,7 @@ class CheckoutController extends Controller
 
         $charge = Charge::create(array(
             'customer' => $customer->id,
-            'amount' => 200,
+            'amount' => $request->paymentAmount,
             'currency' => 'eur',
         ));
 

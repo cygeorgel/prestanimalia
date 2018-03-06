@@ -38,6 +38,8 @@
 
                                     <input type="hidden" name="registration_id" value="{{ $registration->id }}" />
 
+                                    <input type="hidden" name="paymentAmount" value="{{ $paymentAmount }}" />
+
                                     {{ csrf_field() }}
                                     <script
                                             src="https://checkout.stripe.com/checkout.js" class="stripe-button"
