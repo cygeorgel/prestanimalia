@@ -4,7 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use \App\WebsiteContact;
+use Illuminate\Support\Facades\Mail;
+
+use App\WebsiteContact;
+
+use App\Mail\WebsiteContactMessage;
+
 
 class WebsiteContactController extends Controller
 {

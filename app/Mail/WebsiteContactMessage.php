@@ -7,7 +7,9 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class WebsiteContact extends Mailable
+use App\WebsiteContact;
+
+class WebsiteContactMessage extends Mailable
 {
     use Queueable, SerializesModels;
 
