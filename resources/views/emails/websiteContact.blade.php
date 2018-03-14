@@ -9,7 +9,7 @@
     </p>
 
     <p>
-        Nous avons reçu votre demande d\'information sur notre site <a href="https://toilettageprocess.com/">Toilettage Process</a> et nous vous en remercions.
+        Nous avons reçu votre demande d'information sur notre site <a href="https://toilettageprocess.com/">Toilettage Process</a> et nous vous en remercions.
     </p>
 
     <p>
@@ -30,8 +30,8 @@
         {{ $contact->firstName }} {{ $contact->lastName }}<br />
         {{ $contact->phone }}<br />
         {{ $contact->emailAddress }}<br />
-        {{ $contact->object }} {{ $contact->term }}<br />
-        {{ $contact->message }}<
+        {{ $contact->object }} : {{ $contact->term }}<br />
+        {{ $contact->message }}
     </p>
 
 </body>
