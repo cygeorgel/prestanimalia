@@ -12,6 +12,10 @@ use Stripe\Stripe;
 use Stripe\Customer;
 use Stripe\Charge;
 
+use Mail;
+
+use App\Mail\CheckoutMessage;
+
 
 class CheckoutController extends Controller
 {
@@ -55,6 +59,11 @@ class CheckoutController extends Controller
         $student->stripe_id = $customer->id;
         $student->stripe_token = $request->stripeToken;
         $student->save();
+
+
+        Mail::to($student->emailAddress)->send(new CheckoutMessage($student->id, $registration->id));
+
+        Mail::to('infos@toilettageprocess.com')->send(new CheckoutMessage($student->id, $registration->id));
 
 
         flash(__('Merci. Votre inscription a été confirmée avec succès.'))->success();

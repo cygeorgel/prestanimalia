@@ -12,4 +12,9 @@ class Registration extends Model
     {
         return $this->belongsTo(Student::class);
     }
+
+    public function session()
+    {
+        return $this->belongsTo(TrainingSession::class);
+    }
 }

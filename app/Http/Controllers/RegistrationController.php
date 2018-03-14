@@ -12,6 +12,10 @@ use App\Student;
 
 use App\Registration;
 
+use Mail;
+
+use App\Mail\RegistrationMessage;
+
 
 class RegistrationController extends Controller
 {
@@ -69,6 +73,10 @@ class RegistrationController extends Controller
             'priceWithoutTax' => $price,
             'paid' => false,
         ]);
+
+        Mail::to(request('emailAddress'))->send(new RegistrationMessage($student->id, $registration->id));
+
+        Mail::to('infos@toilettageprocess.com')->send(new RegistrationMessage($student->id, $registration->id));
 
         flash(__('Merci. Votre préinscription a été prise en compte avec succès.'))->success();
 
