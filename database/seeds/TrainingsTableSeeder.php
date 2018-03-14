@@ -418,7 +418,7 @@ class TrainingsTableSeeder extends Seeder
                         <li>Utilisation de la solution Check-in DOG</li>
                         <li>Cas particuliers, réponses aux questions</li>
                         <li>Présentation du contrat d\'adhésion au concept Toilettage Nature</li>
-                    <ul>
+                    <ul>Je 
                     <p>
                     4 catégories de poil vous sont proposés afin de parvenir à une maîtrise parfaite des techniques.
                     </p>
