@@ -31,9 +31,9 @@ class WebsiteContactController extends Controller
 
         $contact = WebsiteContact::create($request->all());
 
-        Mail::to(request('emailAddress'))
-        ->from('infos@toilettageprocess.com')
-        ->send(new WebsiteContactMessage($contact->id));
+        Mail::to(request('emailAddress'))->send(new WebsiteContactMessage($contact->id));
+        
+        Mail::to('infos@toilettageprocess.com')->send(new WebsiteContactMessage($contact->id));
 
         flash(__('webcontact.thanks'))->success();
 
