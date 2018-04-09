@@ -32,7 +32,7 @@
 
                                 @include('flash::message')
 
-                                <h2 class="title">Toilettage Process </h2>
+                                <h2 id="toilettage-formation" class="title">Toilettage Process </h2>
                                 <h5 class="description">
                                     La société <strong>Toilettage Process SAS</strong> offre des prestations de conseil, de promotion et de formation pour le développement de l'activité professionelle de toiletteur animalier.
                                 </h5>

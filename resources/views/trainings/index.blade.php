@@ -1,4 +1,4 @@
-<div id="formations" class="features">
+<div id="toilettage-formations" class="features">
 
     <div class="row">
         <div class="col-md-8 col-md-offset-2">

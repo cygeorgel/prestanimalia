@@ -40,6 +40,11 @@
                                     Prix de la formation complète : <strong>{{ number_format($training->sellingPriceWithoutTax, 2) }} € HT</strong><br />
                                 </p>
 
+                                @if($training->slug == 'grooming-station')
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/EToDd9hZW6c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                @endif
+
+
                                 <h3 class="title" id="sessions">Prochaines sessions</h3>
 
                                 @if(count($training->sessions))

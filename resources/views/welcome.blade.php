@@ -9,18 +9,18 @@
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
-                            <h1 class="title">Un souffle nouveau sur la profession toiletteur.</h1>
-                            <h4>Un concept novateur qui adapte la profession de toiletteur à la réalité du marché aujourd'hui, un nouveau souffle, un modèle de rentabilité moderne.
-                                Toilettage Process a été créée spécifiquement pour promouvoir le concept "Toilettage Nature" et animer un réseau de toiletteurs inspirés par le respect de l'animal et le toilettage au naturel.
-                            </h4>
-                            <br>
-                            <a href="#formations" class="btn btn-success btn-raised btn-lg">
-                               Découvrez-nous
+                        <div class="col-md-8">
+                            <h1 class="title">Formation et perfectionnement</h1>
+                            <h3>grâce au nouvelles technologies du toilettage chiens et chats</h3>
+                            <h4>Un jour, une semaine, six semaines : stages courts, stages longs, stages à la carte (devis gratuit pour prise en charge). <strong>Des formations rapides, intensives et pratiques : au contact direct des clients et des réalités professionnelles</strong>. Aurélie, formatrice, vous transmettra son expérience et vous donnera le processus de la réussite. En savoir plus ? Écrivez nous à infos@toilettageprocess.com ou appelez-nous au 09 72 63 38 91.</h4>
+                            <br />
+                            <a href="/centre-formation#toilettage-formation" class="btn btn-danger btn-raised btn-lg">
+                               Voir notre centre de formation
                            </a>
-                            <a href="#contact" class="btn btn-danger btn-raised btn-lg">
-                               Rejoignez-nous
+                            <a href="#toilettage-formations" class="btn btn-success btn-raised btn-lg">
+                               Voir nos différents stages
                            </a>
+
                         </div>
                     </div>
                 </div>
@@ -33,6 +33,15 @@
                             <div class="col-md-8 col-md-offset-2">
 
                                 @include('flash::message')
+
+
+                                <h2 class="title">Un souffle nouveau sur la profession toiletteur.</h1>
+                                <h5 class="description">Un concept novateur qui adapte la profession de toiletteur à la réalité du marché aujourd'hui, un nouveau souffle, un modèle de rentabilité moderne.
+                                    Toilettage Process a été créée spécifiquement pour promouvoir le concept "Toilettage Nature" et animer un réseau de toiletteurs inspirés par le respect de l'animal et le toilettage au naturel.
+                                </h4>
+
+
+
 
                                 <h2 class="title">Un potentiel énorme, inexploité aujourd'hui </h2>
                                 <h5 class="description">

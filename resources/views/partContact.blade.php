@@ -5,7 +5,7 @@
             <h2 class="text-center title">Rejoignez-nous aujourd'hui</h2>
 
 
-            <h4 class="text-center description">Tenté de rejoindre notre concept, vous souhaitez un contact avec notre équipe afin de vous aider à faire votre choix de formation. Complétez notre formulaire, nous revenons vers vous.
+            <h4 class="text-center description">Vous souhaitez un contact avec notre équipe afin de vous aider à faire votre choix de formation. Complétez notre formulaire, nous revenons vers vous. Vous pouvez également nous téléphoner au 09 72 63 38 91.
             </h4>
 
             <form id="contact" action="/webcontact" method="post" class="contact-form">
