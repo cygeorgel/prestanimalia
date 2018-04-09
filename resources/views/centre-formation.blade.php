@@ -120,7 +120,7 @@
                                         de contact</a></strong>.
                                     </p>
 
-                                    <a href="/#formations" class="btn btn-warning">Voir toutes les formations</a>
+                                    <a href="/#formations#toilettage-formations" class="btn btn-warning">Voir toutes les formations</a>
 
 
                             </div>
