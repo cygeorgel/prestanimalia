@@ -495,7 +495,7 @@ class TrainingSessionsTableSeeder extends Seeder
                 ],
 
         ]);
-        
+
 
 
     }

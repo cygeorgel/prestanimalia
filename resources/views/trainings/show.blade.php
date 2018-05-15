@@ -47,9 +47,9 @@
 
                                 <h3 class="title" id="sessions">Prochaines sessions</h3>
 
-                                @if(count($training->sessions->where('start', '>', date(Y-m-d))))
+                                @if(count($training->upcomingSessions))
                                 <ul>
-                                    @foreach($training->sessions as $session)
+                                    @foreach($training->upcomingSessions as $session)
                                     <li>
                                         @if($session->numberOfDays > 1)
                                             du {{ $session->start->format('d/m/Y') }} au {{ $session->end->format('d/m/Y') }}
