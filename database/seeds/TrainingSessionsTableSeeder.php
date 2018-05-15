@@ -325,9 +325,177 @@ class TrainingSessionsTableSeeder extends Seeder
                     'updated_at' => NOW(),
                 ],
 
+                // new dates:
 
+
+                [
+                    'training_id' => '4', // natural pro: 1 semaine
+                    'speciality' => null,
+                    'start' => '2018-09-03',
+                    'end' => '2018-09-07',
+                    'numberOfDays' => 5,
+                    'priceWithoutTax' => '645',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
+
+                [
+                    'training_id' => '4', // natural pro: 1 semaine
+                    'speciality' => null,
+                    'start' => '2018-10-15',
+                    'end' => '2018-10-19',
+                    'numberOfDays' => 5,
+                    'priceWithoutTax' => '645',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
+                [
+                    'training_id' => '4', // natural pro: 1 semaine
+                    'speciality' => null,
+                    'start' => '2018-11-26',
+                    'end' => '2018-11-30',
+                    'numberOfDays' => 5,
+                    'priceWithoutTax' => '645',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
+                [
+                    'training_id' => '4', // 2 semaines
+                    'speciality' => 'adaptation + savoir-faire',
+                    'start' => '2018-09-03',
+                    'end' => '2018-09-14',
+                    'numberOfDays' => 10,
+                    'priceWithoutTax' => '960',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
+                [
+                    'training_id' => '4', // 2 semaines
+                    'speciality' => 'adaptation + savoir-faire',
+                    'start' => '2018-10-15',
+                    'end' => '2018-10-26',
+                    'numberOfDays' => 10,
+                    'priceWithoutTax' => '960',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
+                [
+                    'training_id' => '4', // 2 semaines
+                    'speciality' => 'adaptation + savoir-faire',
+                    'start' => '2018-11-26',
+                    'end' => '2018-12-07',
+                    'numberOfDays' => 10,
+                    'priceWithoutTax' => '960',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
+                [
+                    'training_id' => '5',
+                    'speciality' => 'stage complet (4 semaines)',
+                    'start' => '2018-09-17',
+                    'end' => '2018-10-13',
+                    'numberOfDays' => 20,
+                    'priceWithoutTax' => '1485',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
+                [
+                    'training_id' => '5',
+                    'speciality' => 'stage complet (4 semaines)',
+                    'start' => '2018-10-29',
+                    'end' => '2018-11-24',
+                    'numberOfDays' => 20,
+                    'priceWithoutTax' => '1485',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
+                [
+                    'training_id' => '5',
+                    'speciality' => 'stage complet (4 semaines)',
+                    'start' => '2018-12-10',
+                    'end' => '2019-01-19',
+                    'numberOfDays' => 20,
+                    'priceWithoutTax' => '1485',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
+                [
+                    'training_id' => '7', // 6 semaines
+                    'speciality' => null,
+                    'start' => '2018-09-03',
+                    'end' => '2018-10-13',
+                    'numberOfDays' => 30,
+                    'priceWithoutTax' => '1956',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
+                [
+                    'training_id' => '7', // 6 semaines
+                    'speciality' => null,
+                    'start' => '2018-10-15',
+                    'end' => '2018-11-24',
+                    'numberOfDays' => 30,
+                    'priceWithoutTax' => '1956',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
+                [
+                    'training_id' => '7', // 6 semaines
+                    'speciality' => null,
+                    'start' => '2018-11-26',
+                    'end' => '2019-01-19',
+                    'numberOfDays' => 30,
+                    'priceWithoutTax' => '1956',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
+                [
+                    'training_id' => '1', // grooming
+                    'speciality' => null,
+                    'start' => '2018-09-03',
+                    'end' => '2018-09-03',
+                    'numberOfDays' => 1,
+                    'priceWithoutTax' => '145',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
+                [
+                    'training_id' => '1', // grooming
+                    'speciality' => null,
+                    'start' => '2018-10-15',
+                    'end' => '2018-10-15',
+                    'numberOfDays' => 1,
+                    'priceWithoutTax' => '145',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
+                [
+                    'training_id' => '1', // grooming
+                    'speciality' => null,
+                    'start' => '2018-11-26',
+                    'end' => '2018-11-26',
+                    'numberOfDays' => 1,
+                    'priceWithoutTax' => '145',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
 
         ]);
+        
 
 
     }

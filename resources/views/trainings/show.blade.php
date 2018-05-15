@@ -47,7 +47,7 @@
 
                                 <h3 class="title" id="sessions">Prochaines sessions</h3>
 
-                                @if(count($training->sessions))
+                                @if(count($training->sessions->where('start', '>', date(Y-m-d))))
                                 <ul>
                                     @foreach($training->sessions as $session)
                                     <li>
