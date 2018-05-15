@@ -39,17 +39,6 @@ class TrainingSessionsTableSeeder extends Seeder
         		],
 
                 [
-                    'training_id' => '1',
-                    'speciality' => null,
-                    'start' => '2018-06-25',
-                    'end' => '2018-06-25',
-                    'numberOfDays' => 1,
-                    'priceWithoutTax' => '145',
-                    'created_at' => NOW(),
-                    'updated_at' => NOW(),
-                ],
-
-                [
                     'training_id' => '2',
                     'speciality' => null,
                     'start' => '2018-04-16',
