@@ -93,28 +93,28 @@ class TrainingSessionsTableSeeder extends Seeder
 //                    'updated_at' => NOW(),
 //                ],
 //
-//                [
-//                    'training_id' => '4',
-//                    'speciality' => 'adaptation',
-//                    'start' => '2018-06-25',
-//                    'end' => '2018-06-29',
-//                    'numberOfDays' => 5,
-//                    'priceWithoutTax' => '645',
-//                    'created_at' => NOW(),
-//                    'updated_at' => NOW(),
-//                ],
-//
-//                [
-//                    'training_id' => '4',
-//                    'speciality' => 'adaptation + savoir-faire',
-//                    'start' => '2018-06-25',
-//                    'end' => '2018-07-06',
-//                    'numberOfDays' => 10,
-//                    'priceWithoutTax' => '960',
-//                    'created_at' => NOW(),
-//                    'updated_at' => NOW(),
-//                ],
-//
+                [
+                    'training_id' => '4',
+                    'speciality' => 'adaptation',
+                    'start' => '2018-06-25',
+                    'end' => '2018-06-29',
+                    'numberOfDays' => 5,
+                    'priceWithoutTax' => '645',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
+                [
+                    'training_id' => '4',
+                    'speciality' => 'adaptation + savoir-faire',
+                    'start' => '2018-06-25',
+                    'end' => '2018-07-06',
+                    'numberOfDays' => 10,
+                    'priceWithoutTax' => '960',
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
+                ],
+
 //
 //                [
 //                    'training_id' => '5',
@@ -215,16 +215,15 @@ class TrainingSessionsTableSeeder extends Seeder
 //                    'updated_at' => NOW(),
 //                ],
 //
-//                [
-//                    'training_id' => '5',
-//                    'speciality' => 'stage complet (4 semaines)',
-//                    'start' => '2018-05-18',
-//                    'end' => '2018-06-22',
-//                    'numberOfDays' => 20,
-//                    'priceWithoutTax' => '1485',
-//                    'created_at' => NOW(),
-//                    'updated_at' => NOW(),
-//                ],
+                [
+                    'training_id' => '5',
+                    'speciality' => 'stage complet (4 semaines)',
+                    'start' => '2018-05-28',
+                    'end' => '2018-06-22',
+                    'numberOfDays' => 20,
+                    'priceWithoutTax' => '1485',
+                    'created_at' => NOW(), 'updated_at' => NOW(),
+                ],
 //
 //                [
 //                    'training_id' => '5',
