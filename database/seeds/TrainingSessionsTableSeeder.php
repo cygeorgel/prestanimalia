@@ -115,106 +115,6 @@ class TrainingSessionsTableSeeder extends Seeder
                     'updated_at' => NOW(),
                 ],
 
-//
-//                [
-//                    'training_id' => '5',
-//                    'speciality' => 'fourrures épaisses',
-//                    'start' => '2018-04-09',
-//                    'end' => '2018-04-13',
-//                    'numberOfDays' => 5,
-//                    'priceWithoutTax' => '495',
-//                    'created_at' => NOW(),
-//                    'updated_at' => NOW(),
-//                ],
-//
-//                [
-//                    'training_id' => '5',
-//                    'speciality' => 'poil long',
-//                    'start' => '2018-04-16',
-//                    'end' => '2018-04-20',
-//                    'numberOfDays' => 5,
-//                    'priceWithoutTax' => '495',
-//                    'created_at' => NOW(),
-//                    'updated_at' => NOW(),
-//                ],
-//
-//                [
-//                    'training_id' => '5',
-//                    'speciality' => 'poil court',
-//                    'start' => '2018-04-23',
-//                    'end' => '2018-04-27',
-//                    'numberOfDays' => 5,
-//                    'priceWithoutTax' => '495',
-//                    'created_at' => NOW(),
-//                    'updated_at' => NOW(),
-//                ],
-//
-//                [
-//                    'training_id' => '5',
-//                    'speciality' => 'poil dur',
-//                    'start' => '2018-04-30',
-//                    'end' => '2018-05-05',
-//                    'numberOfDays' => 5,
-//                    'priceWithoutTax' => '495',
-//                    'created_at' => NOW(),
-//                    'updated_at' => NOW(),
-//                ],
-//
-//                [
-//                    'training_id' => '5',
-//                    'speciality' => 'stage complet (4 semaines)',
-//                    'start' => '2018-04-09',
-//                    'end' => '2018-05-05',
-//                    'numberOfDays' => 20,
-//                    'priceWithoutTax' => '1485',
-//                    'created_at' => NOW(),
-//                    'updated_at' => NOW(),
-//                ],
-//
-//                [
-//                    'training_id' => '5',
-//                    'speciality' => 'fourrures épaisses',
-//                    'start' => '2018-05-18',
-//                    'end' => '2018-06-01',
-//                    'numberOfDays' => 5,
-//                    'priceWithoutTax' => '495',
-//                    'created_at' => NOW(),
-//                    'updated_at' => NOW(),
-//                ],
-//
-//                [
-//                    'training_id' => '5',
-//                    'speciality' => 'poil long',
-//                    'start' => '2018-06-04',
-//                    'end' => '2018-06-08',
-//                    'numberOfDays' => 5,
-//                    'priceWithoutTax' => '495',
-//                    'created_at' => NOW(),
-//                    'updated_at' => NOW(),
-//                ],
-//
-//                [
-//                    'training_id' => '5',
-//                    'speciality' => 'poil court',
-//                    'start' => '2018-06-11',
-//                    'end' => '2018-06-15',
-//                    'numberOfDays' => 5,
-//                    'priceWithoutTax' => '495',
-//                    'created_at' => NOW(),
-//                    'updated_at' => NOW(),
-//                ],
-//
-//                [
-//                    'training_id' => '5',
-//                    'speciality' => 'poil dur',
-//                    'start' => '2018-06-18',
-//                    'end' => '2018-06-22',
-//                    'numberOfDays' => 5,
-//                    'priceWithoutTax' => '495',
-//                    'created_at' => NOW(),
-//                    'updated_at' => NOW(),
-//                ],
-//
                 [
                     'training_id' => '5',
                     'speciality' => 'stage complet (4 semaines)',
@@ -222,7 +122,8 @@ class TrainingSessionsTableSeeder extends Seeder
                     'end' => '2018-06-22',
                     'numberOfDays' => 20,
                     'priceWithoutTax' => '1485',
-                    'created_at' => NOW(), 'updated_at' => NOW(),
+                    'created_at' => NOW(),
+                    'updated_at' => NOW(),
                 ],
 //
 //                [
