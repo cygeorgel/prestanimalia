@@ -3,32 +3,19 @@
         <nav class="pull-left">
             <ul>
                 <li>
-                    <a href="http://agc-creation.eu/shop/fr/?utm_source=toilettageprocess.com"
-                    target="_blank">
-                        AGC Création
-                    </a>
-                </li>
-                <li>
-                    <a href="https://audreco.com?utm_source=toilettageprocess.com"
+                    <a href="https://audreco.com?utm_source=prestanimalia.org"
                     target="_blank">
                         Audreco
                     </a>
                 </li>
                 <li>
-                    <a href="https://checkindog.online?utm_source=toilettageprocess.com"
+                    <a href="https://checkindog.com?utm_source=prestanimalia.org"
                     target="_blank">
                         Check-in DOG
                     </a>
                 </li>
                 <li>
-                    <a href="http://toilettagenature.com?utm_source=toilettageprocess.com"
-                    target="_blank">
-                        Toilettage Nature
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://forum-toilettage.org?utm_source=toilettageprocess.com"
+                    <a href="https://forum-toilettage.org?utm_source=prestanimalia.org"
                     target="_blank">
                         Forum du Toilettage
                     </a>
@@ -36,8 +23,8 @@
             </ul>
         </nav>
         <div class="copyright pull-right">
-            © 2018, made with <i class="fa fa-heart heart"></i> by
-            <a href="http://bluerock.ie/fr/?utm_source=toilettageprocess.com" target="_blank">
+            © 2019, made with <i class="fa fa-heart heart"></i> by
+            <a href="http://bluerock.ie/fr/?utm_source=prestanimalia.org" target="_blank">
                 BlueRock
             </a>
         </div>

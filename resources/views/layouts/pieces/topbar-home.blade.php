@@ -10,7 +10,7 @@
             </button>
             <a class="navbar-brand" href="/">
 
-                <img src="{{ asset('img/logo.jpg') }}">
+                <img src="{{ asset('img/prestanimalia.png') }}">
 
             </a>
         </div>
@@ -62,29 +62,10 @@
                 @endguest
 
                 <li>
-                    <a href="/centre-formation" class="btn btn-simple btn-white ">
-                            Le centre de formation
-                    </a>
-                </li>
-
-
-                <li>
-                    <a href="https://www.facebook.com/tpformateur/" target="_blank" class="btn btn-simple btn-white btn-just-icon">
+                    <a href="https://www.facebook.com/GroomingForum/" target="_blank" class="btn btn-simple btn-white btn-just-icon">
                         <i class="fa fa-facebook-square"></i>
                     </a>
                 </li>
-<?php
-//                <li>
-//                    <a href="https://www.instagram.com/#" target="_blank" class="btn btn-simple btn-white btn-just-icon">
-//                        <i class="fa fa-instagram"></i>
-//                    </a>
-//                </li>
-//                <li>
-//                    <a href="https://twitter.com/#" target="_blank" class="btn btn-simple btn-white btn-just-icon">
-//                        <i class="fa fa-twitter"></i>
-//                    </a>
-//                </li>
-?>
             </ul>
         </div>
     </div>
